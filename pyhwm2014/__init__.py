@@ -323,13 +323,13 @@ class HWM14Plot:
             pass
 
         try:
-            latStr = '{:6.2f}$^\circ${:s}'.format(abs(self.glat),
+            latStr = r'{:6.2f}$^\circ${:s}'.format(abs(self.glat),
                 'N' if self.glat > 0 else 'S')
         except Exception:
             pass
 
         try:
-            lonStr = '{:6.2f}$^\circ${:s}'.format(abs(self.glon),
+            lonStr = r'{:6.2f}$^\circ${:s}'.format(abs(self.glon),
                 'E' if self.glon > 0 else 'W')
         except Exception:
             pass
@@ -693,13 +693,13 @@ class HWM142DPlot:
             pass
 
         try:
-            latStr = '{:6.2f}$^\circ${:s}'.format(abs(self.glat),
+            latStr = r'{:6.2f}$^\circ${:s}'.format(abs(self.glat),
                 'N' if self.glat > 0 else 'S')
         except Exception:
             pass
 
         try:
-            lonStr = '{:6.2f}$^\circ${:s}'.format(abs(self.glon),
+            lonStr = r'{:6.2f}$^\circ${:s}'.format(abs(self.glon),
                 'E' if self.glon > 0 else 'W')
         except Exception:
             pass
