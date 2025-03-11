@@ -765,7 +765,7 @@ class HWM142DPlot:
             return
         
         m = Basemap(llcrnrlon=self.glonlim[0], llcrnrlat=self.glatlim[0],
-            urcrnrlon=self.glonlim[-1], urcrnrlat=self.glatlim[-1], resolution='l')
+            urcrnrlon=self.glonlim[-1], urcrnrlat=self.glatlim[-1], resolution='l', ax=ax)
 
         m.drawcoastlines()
 
